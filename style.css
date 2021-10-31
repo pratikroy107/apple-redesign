@@ -652,6 +652,9 @@ footer .second-row .text {
 }
 
 @media(max-width: 774px) {
+    .back .hero-shape {
+        display: none;
+    }
     .nav {
         padding: 0.7rem 1rem;
     }
@@ -735,9 +738,6 @@ footer .second-row .text {
 }
 
 @media(max-width: 541px) {
-    .back .hero-shape {
-        display: none;
-    }
     .service .service-content .box {
         display: flex;
         flex-direction: column;
